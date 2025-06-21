@@ -1,0 +1,2 @@
+# Исключаем Node.js зависимости
+node_modules/
