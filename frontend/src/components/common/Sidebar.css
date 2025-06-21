@@ -1,0 +1,18 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  transition: transform 0.3s ease;
+  z-index: 1020;
+}
+
+.sidebar:not(.open) {
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    transform: translateX(0);
+    position: relative;
+  }
+}

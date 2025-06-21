@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #0055A5;
+  --color-secondary: #EAEFF2;
+  --color-accent: #FFA500;
+
+  --color-bg: #F8FAFB;
+  --color-text: #212529;
+  --color-text-muted: #5A5A5A;
+
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 12px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: #003d7a;
+  border-color: #003d7a;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #842029;
+}
